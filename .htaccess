@@ -1,0 +1,14 @@
+RewriteEngine on
+RewriteRule ^index$ /bigdig/index.php [L]
+RewriteRule ^login$ /bigdig/login.php [L]
+RewriteRule ^logout$ /bigdig/logout.php [L]
+RewriteRule ^users$ /bigdig/users.php [L]
+RewriteRule ^add_user$ /bigdig/add_user.php [L]
+RewriteRule ^add_user$ /bigdig/edit_user.php [L]
+RewriteRule ^feeds$ /bigdig/feeds.php [L]
+RewriteRule ^add_feed$ /bigdig/add_feed.php [L]
+RewriteRule ^add_feed$ /bigdig/edit_feed.php [L]
+RewriteRule ^relations$ /bigdig/relations.php [L]
+RewriteRule ^add_relation$ /bigdig/add_relation.php [L]
+RewriteRule ^add_relation$ /bigdig/edit_relation.php [L]
+
